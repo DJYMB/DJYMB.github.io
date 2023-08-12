@@ -1,0 +1,112 @@
+@font-face {
+	font-family: Better VCR;
+	font-weight: normal;
+	src: url(font/Better-VCR/better-vcr_0.ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+	float: var(--tg-viewport-height);
+	font-family: "Verdana", "Better VCR", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	display: flex;
+}
+
+.container {
+	max-width: 390px;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.balance {
+    text-align: center;
+    font-size: 18px;
+}
+
+.top-balance h2 {
+	text-align: center;
+    font-size: 14px;
+	font-weight: bolder;
+}
+
+.balance-amount {
+    font-size: 32px;
+    font-weight: bold;
+	font-family: "Better VCR", sans-serif;
+	text-align: center;
+    
+}
+
+.currency-symbol {
+    opacity: 0.5;
+    font-size: 18px;
+	font-family: "Better VCR", sans-serif;
+}
+
+.add-button {
+    background-color: #0088cc;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.action-button {
+    background-color: #0088cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.currencies {
+    margin-top: 30px;
+}
+
+.currencies h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.currency-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.currency-list li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.transaction-history {
+    margin-top: 30px;
+}
+
+.transaction-history h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.transaction-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.transaction-list li {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}

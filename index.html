@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+      content="width=device-width, user-scable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="app.js"></script>
+    <title>BenzoBank</title>
+ </head>
+
+ 
+ <body>
+    <div class="container">
+        <main>
+            <div class="top-balance">
+              <h2>Баланс</h2>
+            </div>
+            <div class="balance">
+                <p class="balance-amount">2154<span class="cents">,67</span><span class="currency-symbol">₺</span>
+                <button class="add-button">+</button>
+            </div>
+            <div class="action-buttons">
+                <button class="action-button">Отправить</button>
+                <button class="action-button">Обменять</button>
+                <button class="action-button">Продать</button>
+            </div>
+            <div class="currencies">
+                <h2>Валюты</h2>
+                <ul class="currency-list">
+                    <li>Bitcoin: 2.5 BTC</li>
+                    <li>Ethereum: 10 ETH</li>
+                    <li>Litecoin: 50 LTC</li>
+                </ul>
+            </div>
+            <div class="transaction-history">
+                <h2>История транзакций</h2>
+                <ul class="transaction-list">
+                    <li>Получено $100 от пользователя A</li>
+                    <li>Отправлено $50 пользователю B</li>
+                    <li>Обменено 1 BTC на 10 ETH</li>
+                </ul>
+            </div>
+        </main>
+    </div>
+ </body>
+</html>

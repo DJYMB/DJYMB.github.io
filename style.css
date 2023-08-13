@@ -78,23 +78,32 @@ body {
 
 
 .action-buttons {
-    background-color: var(--tg-theme-secondary-bg-color);
-    color: var(--tg-theme-link-color);
     display: flex;
     justify-content: center;
     margin-top: 20px;
     padding: 10px 20px;
-    border: none;
     margin: 0px 10px;
     cursor: pointer;
 }
 
 .catalog-button {
     margin-right: 55px;
+    background-color: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-link-color);
+    border: none;
 }
 
 .debitores-button {
     margin-right: 55px;
+    background-color: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-link-color);
+    border: none;
+}
+
+.other-button {
+    background-color: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-link-color);
+    border: none;
 }
 
 .currencies {

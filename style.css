@@ -76,20 +76,25 @@ body {
     background-color: var(--tg-theme-secondary-bg-color);
 }
 
+
 .action-buttons {
+    background-color: var(--tg-theme-secondary-bg-color);
+    color: var(--tg-theme-link-color);
     display: flex;
     justify-content: center;
     margin-top: 20px;
-}
-
-.action-button {
-    background-color: #0088cc;
-    color: white;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    margin: 0 10px;
+    margin: 0px 10px;
     cursor: pointer;
+}
+
+.catalog-button {
+    margin-right: 55px;
+}
+
+.debitores-button {
+    margin-right: 55px;
 }
 
 .currencies {

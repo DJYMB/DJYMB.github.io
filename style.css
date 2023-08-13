@@ -9,7 +9,7 @@ body {
 	padding: 0;
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
-	background: var(--tg-theme-bg-color);
+	background: var(--tg-secondary-theme-bg-color);
 	float: var(--tg-viewport-height);
 	font-family: "Verdana", "Better VCR", sans-serif;
 	-webkit-font-smoothing: antialiased;
@@ -33,6 +33,7 @@ body {
 	text-align: center;
     font-size: 14px;
 	font-weight: bolder;
+
 }
 
 .cents {

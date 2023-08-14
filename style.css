@@ -142,7 +142,7 @@ img {
     left: 268px;
 }
 
-@media (max-width: 390px){
+@media (max-width: 360px){
     .catalog-button:nth-child(1) img {
         position: absolute;
         top: 0px;

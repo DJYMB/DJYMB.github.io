@@ -81,40 +81,49 @@ body {
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    padding: 10px 20px;
-    margin: 0px 10px;
+    margin: 10px;
     cursor: pointer;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
 }
 img {
-    width: 30px;
+    width: 34px;
     height: 30px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .catalog-button {
-    margin-right: 30px;
     background-color: var(--tg-theme-secondary-bg-color);
     color: var(--tg-theme-link-color);
     border: none;
     font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 12px;
+    margin-left: 10px;
 }
 
 
 .catalog-button:nth-child(1) img {
-    transform: translateX(60%);
+    position: absolute;
+    top: 0px;
+    left: 64px;
 }
 
 .debitores-button {
-    margin-right: 30px;
     background-color: var(--tg-theme-secondary-bg-color);
     color: var(--tg-theme-link-color);
     border: none;
     font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 21px;
+    margin-left: 10px;
 }
 
 .debitores-button:nth-child(2) img {
-    transform: translateX(34%);
+    position: absolute;
+    top: 0px;
+    left: 166px;
 }
 
 .other-button {
@@ -122,10 +131,15 @@ img {
     color: var(--tg-theme-link-color);
     border: none;
     font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 2.5px;
 }
 
 .other-button:nth-child(3) img {
-    transform: translateX(45%);
+    position: absolute;
+    top: 0px;
+    left: 268px;
 }
 
 .currencies {

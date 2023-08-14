@@ -142,6 +142,26 @@ img {
     left: 268px;
 }
 
+@media (max-width: 390px){
+    .catalog-button:nth-child(1) img {
+        position: absolute;
+        top: 0px;
+        left: 34px;
+    }
+
+    .debitores-button:nth-child(2) img {
+        position: absolute;
+        top: 0px;
+        left: 135.5px;
+    }
+
+    .other-button:nth-child(3) img {
+        position: absolute;
+        top: 0px;
+        left: 237px;
+    }
+}
+
 .currencies {
     margin-top: 30px;
 }

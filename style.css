@@ -107,7 +107,8 @@ img {
 .catalog-button:nth-child(1) img {
     position: absolute;
     top: 0px;
-    left: 64px;
+    transform: translate(-100%, 0);
+    left: calc(26.8%);
 }
 
 .debitores-button {
@@ -123,7 +124,8 @@ img {
 .debitores-button:nth-child(2) img {
     position: absolute;
     top: 0px;
-    left: 166px;
+    transform: translate(-100%, 0);
+    left: calc(52% + 10px);
 }
 
 .other-button {
@@ -139,26 +141,26 @@ img {
 .other-button:nth-child(3) img {
     position: absolute;
     top: 0px;
-    left: 268px;
+    transform: translate(-100%, 0);
+    left: calc(82.8%);
 }
 
 @media (max-width: 390px){
     .catalog-button:nth-child(1) img {
-        position: absolute;
         top: 0px;
-        left: 34px;
+        left: calc(22%);
     }
 
     .debitores-button:nth-child(2) img {
         position: absolute;
         top: 0px;
-        left: 135.5px;
+        left: calc(50% + 10px);
     }
 
     .other-button:nth-child(3) img {
         position: absolute;
         top: 0px;
-        left: 237px;
+        left: calc(89%);
     }
 }
 

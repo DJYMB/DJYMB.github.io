@@ -88,6 +88,7 @@ body {
     position: relative;
     flex-direction: row;
 }
+
 img {
     width: 34px;
     height: 30px;
@@ -100,8 +101,8 @@ img {
     border: none;
     font-weight: bolder;
     margin-top: 20px;
-    margin-right: 12px;
-    margin-left: 10px;
+    margin-right: 29%;
+    margin-left: 8%;
 }
 
 
@@ -118,8 +119,8 @@ img {
     border: none;
     font-weight: bolder;
     margin-top: 20px;
-    margin-right: 21px;
-    margin-left: 10px;
+    margin-right: 50%;
+    margin-left: -11%;
 }
 
 .debitores-button:nth-child(2) img {
@@ -135,8 +136,8 @@ img {
     border: none;
     font-weight: bolder;
     margin-top: 20px;
-    margin-right: 10px;
-    margin-left: 2.5px;
+    margin-right: 5%;
+    margin-left: -31%;
 }
 
 .other-button:nth-child(3) img {

@@ -109,7 +109,7 @@ img {
     position: absolute;
     top: 0px;
     transform: translate(-100%, 0);
-    left: calc(26.8%);
+    left: calc(24.5%);
 }
 
 .debitores-button {
@@ -126,7 +126,7 @@ img {
     position: absolute;
     top: 0px;
     transform: translate(-100%, 0);
-    left: calc(54.8%);
+    left: calc(55.25%);
 }
 
 .other-button {
@@ -143,7 +143,7 @@ img {
     position: absolute;
     top: 0px;
     transform: translate(-100%, 0);
-    left: calc(82.8%);
+    left: calc(86%);
 }
 
 @media (max-width: 390px){

@@ -150,19 +150,19 @@ img {
 @media (max-width: 390px){
     .catalog-button:nth-child(1) img {
         top: 0px;
-        left: calc(22%);
+        left: calc(21.5%);
     }
 
     .debitores-button:nth-child(2) img {
         position: absolute;
         top: 0px;
-        left: calc(55.5%);
+        left: calc(55%);
     }
 
     .other-button:nth-child(3) img {
         position: absolute;
         top: 0px;
-        left: calc(89%);
+        left: calc(88.5%);
     }
 }
 

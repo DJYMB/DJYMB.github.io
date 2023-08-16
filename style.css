@@ -144,7 +144,7 @@ img {
     position: absolute;
     top: 0px;
     transform: translate(-100%, 0);
-    left: calc(87%);
+    left: calc(83.5%);
 }
 
 @media (max-width: 390px){

@@ -101,7 +101,7 @@ img {
     border: none;
     font-weight: bolder;
     margin-top: 20px;
-    margin-right: 29%;
+    margin-right: 22.8%;
     margin-left: 8%;
 }
 
@@ -119,8 +119,8 @@ img {
     border: none;
     font-weight: bolder;
     margin-top: 20px;
-    margin-right: 50%;
-    margin-left: -11%;
+    margin-right: 50.2%;
+    margin-left: -7%;
 }
 
 .debitores-button:nth-child(2) img {
@@ -137,7 +137,7 @@ img {
     font-weight: bolder;
     margin-top: 20px;
     margin-right: 5%;
-    margin-left: -31%;
+    margin-left: -32.5%; 
 }
 
 .other-button:nth-child(3) img {
@@ -148,15 +148,48 @@ img {
 }
 
 @media (max-width: 390px){
+
+    .catalog-button {
+        background-color: var(--tg-theme-secondary-bg-color);
+        color: var(--tg-theme-link-color);
+        border: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-right: 29%;
+        margin-left: 8%;
+    }
+
     .catalog-button:nth-child(1) img {
         top: 0px;
         left: calc(21.5%);
+    }
+
+    .debitores-button {
+        background-color: var(--tg-theme-secondary-bg-color);
+        color: var(--tg-theme-link-color);
+        border: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-right: 50%;
+        margin-left: -11%;
     }
 
     .debitores-button:nth-child(2) img {
         position: absolute;
         top: 0px;
         left: calc(55%);
+    }
+
+
+
+    .other-button {
+        background-color: var(--tg-theme-secondary-bg-color);
+        color: var(--tg-theme-link-color);
+        border: none;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-right: 5%;
+        margin-left: -31%;
     }
 
     .other-button:nth-child(3) img {

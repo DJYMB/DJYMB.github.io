@@ -101,7 +101,7 @@ img {
     border: none;
     font-weight: bolder;
     margin-top: 20px;
-    margin-right: 29%;
+    margin-right: 25%;
     margin-left: 8%;
 }
 
@@ -162,7 +162,7 @@ img {
     .other-button:nth-child(3) img {
         position: absolute;
         top: 0px;
-        left: calc(90%);
+        left: calc(89.5%);
     }
 }
 

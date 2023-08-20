@@ -162,7 +162,7 @@ img {
     .other-button:nth-child(3) img {
         position: absolute;
         top: 0px;
-        left: calc(91.5%);
+        left: calc(90%);
     }
 }
 

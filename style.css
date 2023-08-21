@@ -99,6 +99,7 @@ img {
 
 .inline-block-container {
     font-size: 0;
+    max-width: 390px;
 }
 
 .inline-block-element {
@@ -106,7 +107,7 @@ img {
     width: 100px;
     height: 70px;
     border: none;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
 }
 
